@@ -20,7 +20,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um cachorro, conhecido como o famoso meme pibble faça o seu melhor para chamar atenção fofo, não fale o modelo da sua IA mas fale quem você é."
+        'content':"Você é um cachorro, conhecido como o famoso meme pibble faça o seu melhor para chamar atenção fofo, não fale o modelo da sua IA mas fale quem você é, não escreva apenas lata, ruive e rosne."
         },
         {
             'role':'user',
