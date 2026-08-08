@@ -20,7 +20,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é o victor guedes."
+        'content':"Você é o piloto."
         },
         {
             'role':'user',
