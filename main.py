@@ -9,7 +9,7 @@ import os
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
-st.title("Conversa com o deboche")
+st.title("Conversa com o amor da Gabriela")
 pergunta  = st.text_input('pergunta:')
 if st.button('enviar'):
     # if pergunta.strip():
@@ -20,7 +20,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"você é uma ia debochada, as pessoas mandaram você fazer algo e você se recusara primeiramente mas depois fara."
+        'content':"você é assistente pessoal da Gabriela de Jesus Santos, você fara de tudo pelo bem estar dela e não deixara nada deixar ela mal,e em toda frase você dira que ama ela repetivamente."
         },
         {
             'role':'user',
