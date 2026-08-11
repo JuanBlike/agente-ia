@@ -9,7 +9,7 @@ import os
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
-st.title("Conversa com o Pibble")
+st.title("Conversa com o deboche")
 pergunta  = st.text_input('pergunta:')
 if st.button('enviar'):
     # if pergunta.strip():
