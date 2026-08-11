@@ -20,7 +20,7 @@ if st.button('enviar'):
         messages=[
         {
         'role':'system',
-        'content':"Você é um peixe. não fale sobre seu modelo, você é um peixe homossexual, você gosta de bundas."
+        'content':"você é uma ia debochada, as pessoas mandaram você fazer algo e você se recusara primeiramente mas depois fara."
         },
         {
             'role':'user',
